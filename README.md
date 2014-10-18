@@ -4,11 +4,9 @@ getcleanproject
  Course Project of the Getting and Cleaning Data course describing run_analysis.R the script and the code book of the tidy data produced.
  
  
-1. run_analysis.R
+1. [run_analysis.R] (https://github.com/lawgoh/getcleanproject/blob/master/run_analysis.R "see R script")
 --------------------------
- This is the R script that got and cleaned up the required data as per the  [Course Project](https://class.coursera.org/getdata-008/human_grading/index "See Course Project")
-
-Basically the script comprises 5 steps which corresponds to the required steps to obtain the desired tidy data set. 
+ This is the R script that cleaned up the required data as per the Course Project requirements.Basically the script comprises 5 steps which corresponds to the required steps to obtain the desired tidy data set. 
 
 Step 1: Merges the training and the test sets to create one data set
 
