@@ -10,23 +10,23 @@ getcleanproject
 
 Step 1: Merges the training and the test sets to create one data set
 
-First read the files into data frames, then column combine the activity and subject values. Then row combine the test and training data into a merged data frame.
+> First read the files into data frames, then column combine the activity and subject values. Then row combine the test and training data into a merged data frame.
 
 Step 2: Extract only mean and std dev of each measurement
 
-Select out the required columns from the merged data frame.
+> Select out the required columns from the merged data frame by inspecting the code book.
 
 Step 3: Uses descriptive activity names to name the activities in the data set
 
-Factorise the values of the desired Activity column and label the levels accordingly.
+> Factorise the values of the desired Activity column and label the levels accordingly.
 
 
 Step 4: Appropriately labels the data set with descriptive variable names
-List the names of the variables and assign as the column names.
+> List the names of the variables and assign as the column names.
 
 
 Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-Use the reshape library and melt the activity and subject then calculate the mean. Write the file.
+> Use the reshape library and melt the activity and subject then calculate the mean. Write the file.
 
 2. Code Book
 ----------------------
